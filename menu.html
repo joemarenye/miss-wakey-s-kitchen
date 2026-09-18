@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Menu — Miss Wakey Kitchen</title>
+<meta
+  name="description"
+  content="The Miss Wakey Kitchen menu — Kenyan mains, coastal specialities, sides and breakfast, cooked fresh and delivered warm around Nairobi."
+>
+<link rel="icon" type="image/png" href="images/logo/favicon.png">
+<link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container site-header__row">
+    <a href="index.html" class="brand">
+      <img src="images/logo/logo-mark.png" alt="Miss Wakey Kitchen">
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="menu.html" aria-current="page">Menu</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ MENU HERO ============ -->
+  <section class="menu-hero">
+    <div class="menu-hero__image">
+      <img src="images-webp/hero/hero-02.webp" alt="">
+    </div>
+    <div class="menu-hero__overlay"></div>
+    <div class="container menu-hero__content">
+      <p class="eyebrow">What's on today</p>
+      <h1>The Menu</h1>
+      <p class="menu-hero__intro">
+        Everyday Kenyan mains, coastal specialities, and the sides
+        that make a meal — cooked fresh to order and delivered
+        warm around Nairobi.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ CATEGORY QUICK NAV ============ -->
+  <!-- Filled in by menu.js to match whatever categories are in the
+       dish list, so it never falls out of sync with the menu. -->
+  <nav class="menu-nav container" aria-label="Menu categories" data-menu-nav></nav>
+
+  <!-- ============ MENU CATEGORIES + DISHES ============ -->
+  <!-- Rendered entirely by menu.js from the `dishes` list in that
+       file. Add, remove, or re-tag a dish there and this page (and
+       its category nav) updates itself — no HTML edits needed. -->
+  <div data-menu-categories></div>
+
+  <!-- ============ ORDER CTA ============ -->
+  <section class="menu-cta alt">
+    <div class="container menu-cta__inner">
+      <div>
+        <p class="eyebrow">Ready to eat?</p>
+        <h2>Order for delivery</h2>
+        <p>Send us your order on WhatsApp and we'll get it cooking.</p>
+      </div>
+      <a href="https://wa.me/254746419205" class="btn btn--whatsapp">Order on WhatsApp</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <img src="images/logo/logo-mark.png" alt="Miss Wakey Kitchen" class="footer-logo">
+      <p class="brand" style="color:var(--color-paper)">Miss Wakey Kitchen</p>
+      <p style="color:var(--color-paper); opacity:.75;">Home-cooked Kenyan food with a coastal touch, delivered around Nairobi.</p>
+    </div>
+    <div>
+      <h5>Explore</h5>
+      <p><a href="menu.html">Menu</a></p>
+      <p><a href="about.html">About</a></p>
+    </div>
+    <div>
+      <h5>Reach us</h5>
+      <p><a href="https://wa.me/254746419205">WhatsApp</a></p>
+      <p><a href="contact.html">Contact</a></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    &copy; <span id="year"></span> Miss Wakey Kitchen. All rights reserved.
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/menu.js"></script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

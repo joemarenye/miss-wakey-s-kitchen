@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Miss Wakey Kitchen — Home-Cooked Coastal Food, Delivered</title>
+<meta name="description" content="Miss Wakey Kitchen cooks fresh coastal Kenyan food — ugali, pilau, maharagwe ya nazi, mahamri and more — delivered hot to your home or office in Mombasa.">
+<link rel="icon" type="image/png" href="images/logo/favicon.png">
+<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container site-header__row">
+    <a href="index.html" class="brand">
+      <img src="images/logo/logo-mark.png" alt="Miss Wakey Kitchen">
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO — full screen, image-swap background ============ -->
+  <section class="hero">
+    <div class="hero__media">
+      <div class="frame-sequence"
+          data-frame-sequence
+          data-src="images-webp/hero/hero"
+          data-count="4"
+          data-ext="webp"
+          data-interval="4200">
+      </div>
+    </div>
+    <div class="hero__scrim"></div>
+    <div class="container hero__copy">
+      <p class="eyebrow hero__eyebrow">Nairobi &middot; Home &amp; office delivery</p>
+      <h1 class="hero__title">Cooked fresh.<br>Delivered warm.</h1>
+      <p class="hero__desc">Home-cooked Kenyan food, prepared fresh and delivered straight to your door. From everyday favourites to coastal-inspired dishes, made for sharing, working and enjoying.</p>
+      <div class="hero__cta">
+        <a href="order.html" class="btn btn--primary">Order for delivery</a>
+        <a href="menu.html" class="btn btn--ghost">See today's menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ THIS WEEK'S MENU — 4-card deal animation ============ -->
+  <section class="cook-section" aria-labelledby="menu-heading">
+    <div class="container">
+      <p class="eyebrow">Today's picks</p>
+      <h2 id="menu-heading">What's cooking this week</h2>
+      <div class="cook-cards" data-deal-cards>
+        <article class="cook-card" style="--i:0">
+          <div class="cook-card__img"><img src="images-webp/food/samaki.webp" alt="Samaki wa Kupaka"></div>
+          <div class="cook-card__body">
+            <span class="cook-card__tag">Fish</span>
+            <h3 class="cook-card__name">Samaki wa Kupaka</h3>
+          </div>
+        </article>
+        <article class="cook-card" style="--i:1">
+          <div class="cook-card__img"><img src="images-webp/food/pilau.webp" alt="Pilau na Nyama"></div>
+          <div class="cook-card__body">
+            <span class="cook-card__tag">Rice dish</span>
+            <h3 class="cook-card__name">Pilau na Nyama</h3>
+          </div>
+        </article>
+        <article class="cook-card" style="--i:2">
+          <div class="cook-card__img"><img src="images-webp/food/ugali-nyama.webp" alt="Ugali na Nyama Choma"></div>
+          <div class="cook-card__body">
+            <span class="cook-card__tag">Everyday favorite</span>
+            <h3 class="cook-card__name">Ugali na Nyama</h3>
+          </div>
+        </article>
+        <article class="cook-card" style="--i:3">
+          <div class="cook-card__img"><img src="images-webp/food/maharagwe.webp" alt="Maharagwe ya Nazi"></div>
+          <div class="cook-card__body">
+            <span class="cook-card__tag">Coastal classic</span>
+            <h3 class="cook-card__name">Maharagwe ya Nazi</h3>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+<!-- ============ HOW DELIVERY WORKS ============ -->
+<section class="alt delivery-steps-section" aria-labelledby="steps-heading">
+  <div class="container">
+    <h2 id="steps-heading">How delivery works</h2>
+
+    <div class="steps-track-wrap">
+      <div class="steps-track">
+
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__content">
+            <h3>Order on WhatsApp</h3>
+            <p>Send us your order and delivery address — no app to download.</p>
+          </div>
+          <img
+            class="step__img"
+            src="images-webp/steps/step-order.webp"
+            alt="Ordering food on WhatsApp"
+          >
+        </div>
+
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__content">
+            <h3>We cook it fresh</h3>
+            <p>Nothing is pre-made. Your order goes into the pot after you send it.</p>
+          </div>
+          <img
+            class="step__img"
+            src="images-webp/steps/step-cook.webp"
+            alt="Cooking a fresh food order"
+          >
+        </div>
+
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__content">
+            <h3>Delivered hot</h3>
+            <p>Packed and brought straight to your home or office in Mombasa.</p>
+          </div>
+          <img
+            class="step__img"
+            src="images-webp/steps/step-deliver.webp"
+            alt="Fresh food being delivered"
+          >
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- ============ CUSTOMER REVIEWS ============ -->
+<section class="reviews-section" aria-labelledby="reviews-heading">
+  <div class="container">
+
+    <div class="reviews-intro">
+      <p class="eyebrow">From our customers</p>
+      <h2 id="reviews-heading">Good food gets talked about.</h2>
+      <p>
+        From everyday lunches to meals shared at home, here's what people
+        have said after eating from Miss Wakey Kitchen.
+      </p>
+    </div>
+
+    <div class="reviews-carousel" data-reviews>
+
+      <article class="review-card review-card--1" data-review="0">
+        <div class="review-card__stars" aria-label="5 out of 5 stars">
+          ★★★★★
+        </div>
+        <p class="review-card__text">
+          “The food tastes exactly like something you would make at home.
+          The pilau was full of flavour and the portions were generous.”
+        </p>
+        <div class="review-card__author">
+          <div class="review-card__avatar">A</div>
+          <div>
+            <strong>Angela M.</strong>
+            <span>Nairobi</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="review-card review-card--2" data-review="1">
+        <div class="review-card__stars" aria-label="5 out of 5 stars">
+          ★★★★★
+        </div>
+        <p class="review-card__text">
+          “I ordered lunch for the office and everyone kept asking where
+          it came from. Fresh, filling and delivered warm.”
+        </p>
+        <div class="review-card__author">
+          <div class="review-card__avatar">D</div>
+          <div>
+            <strong>David K.</strong>
+            <span>Nairobi</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="review-card review-card--3" data-review="2">
+        <div class="review-card__stars" aria-label="5 out of 5 stars">
+          ★★★★★
+        </div>
+        <p class="review-card__text">
+          “The maharagwe ya nazi was the highlight for me. Simple food,
+          but cooked really well and with so much flavour.”
+        </p>
+        <div class="review-card__author">
+          <div class="review-card__avatar">N</div>
+          <div>
+            <strong>Naomi W.</strong>
+            <span>Nairobi</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="review-card review-card--4" data-review="3">
+        <div class="review-card__stars" aria-label="5 out of 5 stars">
+          ★★★★★
+        </div>
+        <p class="review-card__text">
+          “Everything arrived neatly packed and still warm. You can tell
+          the food is prepared with care.”
+        </p>
+        <div class="review-card__author">
+          <div class="review-card__avatar">J</div>
+          <div>
+            <strong>James O.</strong>
+            <span>Nairobi</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="review-card review-card--5" data-review="4">
+        <div class="review-card__stars" aria-label="5 out of 5 stars">
+          ★★★★★
+        </div>
+        <p class="review-card__text">
+          “The chapati and beef were so good I ordered again the following
+          week. This is the kind of food you actually look forward to.”
+        </p>
+        <div class="review-card__author">
+          <div class="review-card__avatar">S</div>
+          <div>
+            <strong>Sarah W.</strong>
+            <span>Nairobi</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="reviews-controls">
+      <button type="button" class="reviews-arrow reviews-arrow--prev"
+              data-review-prev aria-label="Previous review">
+        ←
+      </button>
+
+      <div class="reviews-dots" data-review-dots></div>
+
+      <button type="button" class="reviews-arrow reviews-arrow--next"
+              data-review-next aria-label="Next review">
+        →
+      </button>
+    </div>
+
+  </div>
+</section>
+
+  <!-- ============ WHERE WE DELIVER ============ -->
+<section class="delivery-section" aria-labelledby="delivery-heading">
+  <div class="container">
+
+    <div class="delivery-intro">
+      <div>
+        <p class="eyebrow">Where we deliver</p>
+        <h2 id="delivery-heading">From your desk to the site.</h2>
+      </div>
+
+      <div class="delivery-intro__copy">
+        <p>
+          Hungry at home, stuck at the office, or halfway through a busy
+          workday? We cook fresh and bring your meal where you are.
+        </p>
+        <a href="order.html" class="btn btn--primary">Order your meal</a>
+      </div>
+    </div>
+
+    <div class="delivery-layout">
+
+      <div class="delivery-feature">
+        <img
+          src="images-webp/delivery/delivery-home.webp"
+          alt="Freshly prepared meal being enjoyed at home"
+        >
+        <div class="delivery-feature__label">
+          <span>01</span>
+          <strong>Home</strong>
+          <p>Lunch, supper or something good for the whole house.</p>
+        </div>
+      </div>
+
+      <div class="delivery-stack">
+
+        <article class="delivery-card delivery-card--office">
+          <img
+            src="images-webp/delivery/delivery-office.webp"
+            alt="Lunch delivery at an office"
+          >
+          <div class="delivery-card__overlay">
+            <span>02</span>
+            <h3>Office</h3>
+            <p>Keep working. We'll bring lunch to your desk.</p>
+          </div>
+        </article>
+
+        <article class="delivery-card delivery-card--site">
+          <img
+            src="images-webp/delivery/delivery-site.webp"
+            alt="Meal delivery at a construction site"
+          >
+          <div class="delivery-card__overlay">
+            <span>03</span>
+            <h3>Mjengo</h3>
+            <p>Hot, filling food for a hard day's work.</p>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="delivery-side">
+
+        <article class="delivery-card delivery-card--work">
+          <img
+            src="images-webp/delivery/delivery-workplace.webp"
+            alt="Food delivery to a workplace"
+          >
+          <div class="delivery-card__overlay">
+            <span>04</span>
+            <h3>Workplace</h3>
+            <p>Shops, studios, workshops and everywhere work happens.</p>
+          </div>
+        </article>
+
+        <div class="delivery-note">
+          <span class="delivery-note__mark">WK</span>
+          <div>
+            <strong>Fresh from our kitchen.</strong>
+            <p>Made to order and delivered around Nairobi.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <img src="images/logo/logo-mark.png" alt="Miss Wakey Kitchen" class="footer-logo">
+      <p class="brand" style="color:var(--color-paper)">Miss Wakey Kitchen</p>
+      <p style="color:var(--color-paper); opacity:.75;">Home-cooked coastal Kenyan food, delivered hot to your home or office in Mombasa.</p>
+    </div>
+    <div>
+      <h5>Explore</h5>
+      <p><a href="menu.html">Menu</a></p>
+      <p><a href="about.html">About</a></p>
+    </div>
+    <div>
+      <h5>Reach us</h5>
+      <p><a href="https://wa.me/254746419205">WhatsApp</a></p>
+      <p><a href="contact.html">Contact</a></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    &copy; <span id="year"></span> Miss Wakey Kitchen. All rights reserved.
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+  // Pick the kitchen sequence + label to match the time of day.
+  // Cycle: morning -> afternoon -> evening -> night -> morning again.
+  (function () {
+    var hour = new Date().getHours();
+    var period, label;
+    if (hour >= 5 && hour < 11)      { period = 'morning';   label = 'Preparing this morning\u2019s breakfast'; }
+    else if (hour >= 11 && hour < 16){ period = 'afternoon'; label = 'Cooking today\u2019s lunch'; }
+    else if (hour >= 16 && hour < 21){ period = 'evening';   label = 'Plating this evening\u2019s dinner'; }
+    else                              { period = 'night';     label = 'Closing up and cleaning the kitchen'; }
+
+    var seq = document.getElementById('kitchen-sequence');
+    if (seq) {
+      seq.setAttribute('data-src', 'images/process/' + period);
+      seq.setAttribute('data-count', '3');
+    }
+    var label_el = document.getElementById('kitchen-period-label');
+    if (label_el) label_el.textContent = label;
+  })();
+</script>
+<script src="js/frame-sequence.js"></script>
+<script>
+  // Deal the "What's cooking this week" cards in once the section is on screen.
+  (function () {
+    var cards = document.querySelector('[data-deal-cards]');
+    if (!cards) return;
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          cards.classList.add('is-dealt');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -10% 0px' });
+    io.observe(cards);
+  })();
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
