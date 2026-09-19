@@ -102,7 +102,7 @@ const dishes = [
     name: 'Pure',
     category: 'Sides & Vegetables',
     tag: 'Comforting side',
-    description: 'Smooth, creamy mashed potatoes prepared simply to complement your main meal.',
+    description: 'A hearty, rustic blend of slow-cooked maize and kidney beans, prepared authentically with just a hint of salt to provide a substantial and nutritious base for your meal.',
     image: 'images-webp/food/puree.webp',
     price: 'KES 300',
   },
