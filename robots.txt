@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://misswakeyskitchen.netlify.app/sitemap.xml
